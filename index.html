@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>The Beatles Quiz</title>
+	<meta charset="utf-8">
+	<meta name="description" content="A Beatles Quiz">
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<link href="https://fonts.googleapis.com/css?family=Rye" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Droid+Serif" rel="stylesheet">
+</head>
+
+<body>
+
+	<main role="main">
+
+		<section class='start-page js-start-page'>
+			<h1>The Magical Mystery Quiz</br>is waiting to take you away!</h1>
+			<button class = 'start-quiz-button js-start-quiz-button' autofocus='autofocus'>
+				<span class = 'button-label'>Start Quiz</span>
+			</button>
+			<img src="https://i.pinimg.com/736x/0f/2c/dd/0f2cdd6924545d6538c92722cbec7431--birthday-cake-designs-birthday-cakes.jpg" class="bassdrum">
+		</section>
+
+		<section class='question-page js-question-page hidden'>
+			<header role="banner">
+				<h2 class='banner'>The Beatles Quiz</h2>
+			</header>
+
+			<form class='multiple-choice-question js-multiple-choice-question'>
+				<div class='submit-answer-button-container'>
+					<button class = 'submit-answer-button js-submit-answer-button' autofocus='autofocus'>
+						<span class = 'button-label'>Submit Answer</span>
+					</button>
+				</div>
+			</form>
+
+			<div class='counter js-counter'>
+			</div>
+		</section>
+
+		<section class='feedback-page js-feedback-page hidden'>
+			<div class='correct-answer-message js-correct-answer-message'></div>
+			<div class='wrong-answer-message js-wrong-answer-message'></div>
+
+			
+			<button class = 'next-question-button js-next-question-button' autofocus='autofocus'>
+				<span class = 'button-label'>Next</span>
+			</button>
+		</section>
+
+		<section class='final-page js-final-page hidden'>
+			<button class = 'retake-the-quiz js-retake-the-quiz' autofocus='autofocus'>
+				<span class = 'button-label'>Restart Quiz</span>
+			</button>
+		</section>
+
+	</main>
+
+<script src="jquery-3.2.1.js"></script>
+<script type="text/javascript" src="index.js"></script>
+</body>
+</html>
